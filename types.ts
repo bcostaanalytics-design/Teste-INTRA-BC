@@ -21,6 +21,10 @@ export interface SavedResult {
     setor_nome: string;
     percentual: number;
   }>;
+  pontuacao_perfil?: {
+    gestao: number;
+    tecnico: number;
+  };
 }
 
 export interface Sector {
